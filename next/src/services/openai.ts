@@ -2,7 +2,7 @@ import { ChatCompletionRequestMessage, type OpenAIApi } from "openai"
 
 // TODO: Implement exponential backoff
 
-async function getEmbeddings(
+export async function getEmbeddings(
   openai: OpenAIApi,
   input: string[]
 ): Promise<number[][]> {

@@ -1,7 +1,7 @@
 import { Source } from "@/models/models"
 import { OpenAIApi } from "openai"
 import { outdent } from "outdent"
-import { getChatCompletion } from "./openai"
+import { getChatCompletion } from "@/services/openai"
 
 export async function extractMetadataFromDocument(
   openai: OpenAIApi,

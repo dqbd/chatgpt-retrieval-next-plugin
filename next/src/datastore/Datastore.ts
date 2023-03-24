@@ -8,7 +8,7 @@ import {
   Query,
   QueryResult,
   QueryWithEmbedding,
-} from "../models/models"
+} from "@/models/models"
 
 export abstract class Datastore {
   constructor(protected openai: OpenAIApi) {}

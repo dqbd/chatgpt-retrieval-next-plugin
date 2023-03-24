@@ -1,6 +1,6 @@
 import { type OpenAIApi } from "openai"
 import { outdent } from "outdent"
-import { getChatCompletion } from "./openai"
+import { getChatCompletion } from "@/services/openai"
 
 export async function screenTextForPii(
   content: string,

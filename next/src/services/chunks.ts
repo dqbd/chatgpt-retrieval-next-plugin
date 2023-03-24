@@ -1,7 +1,7 @@
 import { Document, DocumentChunk, DocumentChunkMetadata } from "@/models/models"
 import { get_encoding } from "@dqbd/tiktoken"
 import { OpenAIApi } from "openai"
-import { getEmbeddings } from "./openai"
+import { getEmbeddings } from "@/services/openai"
 import { v4 as uuid } from "uuid"
 
 const tokenizer = get_encoding("cl100k_base")
